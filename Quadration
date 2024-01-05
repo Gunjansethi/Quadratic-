@@ -1,0 +1,28 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
+
+
+a=float(input("enter the coefficient of x square: "))
+b=float(input("enter the coefficient of x: "))
+c=float(input("enter the constant : "))
+d=b**2-4*a*c
+print("discriminant",d)
+if d>0:
+    r1=-b+d**1/2/(2*a)
+    r2=-b-d**1/2/(2*a)
+    print("r1,r2 , roots are real and distinct",r1,r2)
+elif d==0:
+    r1=-b/(2*a)
+    r1=r2r
+    print("r1,r2,roots are equal",r1,r2)
+else:
+    print("roots are imaginary")
+        
+
+
+# In[ ]:
+
+
+
